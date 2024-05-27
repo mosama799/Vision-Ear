@@ -1,0 +1,155 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.login-container {
+    max-width: 400px;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: rgba(56, 24, 76, 1);
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: rgba(56, 24, 76, 1);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(56, 24, 76, 1);
+}
+
+.form-control:focus {
+    border-color: rgba(56, 24, 76, 1);
+    box-shadow: 0 0 0 0.2rem rgba(56, 24, 76, 0.25);
+}
+.left-side{
+    background: linear-gradient(128.38deg, rgba(179, 231, 242, 0.5) 30.34%, rgba(156, 182, 217, 0.3) 79.45%, rgba(63, 142, 191, 0.22) 144.06%);
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+  }
+  .container-fluid{
+    padding: 0 !important;
+  }
+  .sidebar {
+    background-color: rgba(56, 24, 76, 1);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .sidebar .logo h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .sidebar .nav-link {
+    color: white;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .sidebar .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .content header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+  
+  .search-input {
+    width: 200px;
+  }
+  
+  .user-info img {
+    border-radius: 50%;
+  }
+  
+  .product-list .product-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .product-list .product-info h5 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-list .product-info p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .update-link {
+    color: orange;
+  }
+  
+  .delete-link {
+    color: red;
+  }
+  
+  .product-img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .action-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-links .btn-link {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .sidebar {
+      display: none;
+    }
+    .content {
+      padding: 1rem;
+    }
+    .search-input {
+      width: 100%;
+    }
+    .product-list .product-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .product-list .action-links {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  
+
+@media (max-width: 991.98px) {
+    .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+
+    .info-container {
+    display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-light {
+    background-color: #e0f7fa !important;
+    }
+}
